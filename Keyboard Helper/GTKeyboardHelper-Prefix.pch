@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Keyboard Helper' target in the 'Keyboard Helper' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
