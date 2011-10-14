@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187E15CF1447A3C8006F5A45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E15CE1447A3C8006F5A45 /* UIKit.framework */; };
+		187E15D11447A3C9006F5A45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E15D01447A3C8006F5A45 /* Foundation.framework */; };
+		187E15D31447A3C9006F5A45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E15D21447A3C9006F5A45 /* CoreGraphics.framework */; };
+		187E15D91447A3C9006F5A45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 187E15D71447A3C9006F5A45 /* InfoPlist.strings */; };
+		187E15DB1447A3C9006F5A45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E15DA1447A3C9006F5A45 /* main.m */; };
+		187E15DF1447A3C9006F5A45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E15DE1447A3C9006F5A45 /* AppDelegate.m */; };
+		187E15E21447A3C9006F5A45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E15E11447A3C9006F5A45 /* ViewController.m */; };
+		187E15E51447A3C9006F5A45 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E15E31447A3C9006F5A45 /* ViewController_iPhone.xib */; };
+		187E15E81447A3C9006F5A45 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E15E61447A3C9006F5A45 /* ViewController_iPad.xib */; };
+		187E16131447B157006F5A45 /* GTKeyboardHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E16121447B157006F5A45 /* GTKeyboardHelper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187E15CA1447A3C8006F5A45 /* Keyboard Helper Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Helper Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E15CE1447A3C8006F5A45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		187E15D01447A3C8006F5A45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		187E15D21447A3C9006F5A45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		187E15D61447A3C9006F5A45 /* Keyboard Helper Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keyboard Helper Demo-Info.plist"; sourceTree = "<group>"; };
+		187E15D81447A3C9006F5A45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		187E15DA1447A3C9006F5A45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187E15DC1447A3C9006F5A45 /* Keyboard Helper Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keyboard Helper Demo-Prefix.pch"; sourceTree = "<group>"; };
+		187E15DD1447A3C9006F5A45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187E15DE1447A3C9006F5A45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187E15E01447A3C9006F5A45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187E15E11447A3C9006F5A45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187E15E41447A3C9006F5A45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		187E15E71447A3C9006F5A45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		187E16121447B157006F5A45 /* GTKeyboardHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTKeyboardHelper.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187E15C71447A3C8006F5A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E15CF1447A3C8006F5A45 /* UIKit.framework in Frameworks */,
+				187E15D11447A3C9006F5A45 /* Foundation.framework in Frameworks */,
+				187E15D31447A3C9006F5A45 /* CoreGraphics.framework in Frameworks */,
+				187E16131447B157006F5A45 /* GTKeyboardHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187E15BF1447A3C8006F5A45 = {
+			isa = PBXGroup;
+			children = (
+				187E15D41447A3C9006F5A45 /* Keyboard Helper Demo */,
+				187E15CD1447A3C8006F5A45 /* Frameworks */,
+				187E15CB1447A3C8006F5A45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187E15CB1447A3C8006F5A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187E15CA1447A3C8006F5A45 /* Keyboard Helper Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187E15CD1447A3C8006F5A45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187E16121447B157006F5A45 /* GTKeyboardHelper.framework */,
+				187E15CE1447A3C8006F5A45 /* UIKit.framework */,
+				187E15D01447A3C8006F5A45 /* Foundation.framework */,
+				187E15D21447A3C9006F5A45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		187E15D41447A3C9006F5A45 /* Keyboard Helper Demo */ = {
+			isa = PBXGroup;
+			children = (
+				187E15DD1447A3C9006F5A45 /* AppDelegate.h */,
+				187E15DE1447A3C9006F5A45 /* AppDelegate.m */,
+				187E15E01447A3C9006F5A45 /* ViewController.h */,
+				187E15E11447A3C9006F5A45 /* ViewController.m */,
+				187E15E31447A3C9006F5A45 /* ViewController_iPhone.xib */,
+				187E15E61447A3C9006F5A45 /* ViewController_iPad.xib */,
+				187E15D51447A3C9006F5A45 /* Supporting Files */,
+			);
+			path = "Keyboard Helper Demo";
+			sourceTree = "<group>";
+		};
+		187E15D51447A3C9006F5A45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187E15D61447A3C9006F5A45 /* Keyboard Helper Demo-Info.plist */,
+				187E15D71447A3C9006F5A45 /* InfoPlist.strings */,
+				187E15DA1447A3C9006F5A45 /* main.m */,
+				187E15DC1447A3C9006F5A45 /* Keyboard Helper Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187E15C91447A3C8006F5A45 /* Keyboard Helper Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E15EB1447A3C9006F5A45 /* Build configuration list for PBXNativeTarget "Keyboard Helper Demo" */;
+			buildPhases = (
+				187E15C61447A3C8006F5A45 /* Sources */,
+				187E15C71447A3C8006F5A45 /* Frameworks */,
+				187E15C81447A3C8006F5A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyboard Helper Demo";
+			productName = "Keyboard Helper Demo";
+			productReference = 187E15CA1447A3C8006F5A45 /* Keyboard Helper Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187E15C11447A3C8006F5A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 187E15C41447A3C8006F5A45 /* Build configuration list for PBXProject "Keyboard Helper Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 187E15BF1447A3C8006F5A45;
+			productRefGroup = 187E15CB1447A3C8006F5A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187E15C91447A3C8006F5A45 /* Keyboard Helper Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187E15C81447A3C8006F5A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E15D91447A3C9006F5A45 /* InfoPlist.strings in Resources */,
+				187E15E51447A3C9006F5A45 /* ViewController_iPhone.xib in Resources */,
+				187E15E81447A3C9006F5A45 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187E15C61447A3C8006F5A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E15DB1447A3C9006F5A45 /* main.m in Sources */,
+				187E15DF1447A3C9006F5A45 /* AppDelegate.m in Sources */,
+				187E15E21447A3C9006F5A45 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187E15D71447A3C9006F5A45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187E15D81447A3C9006F5A45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		187E15E31447A3C9006F5A45 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187E15E41447A3C9006F5A45 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		187E15E61447A3C9006F5A45 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187E15E71447A3C9006F5A45 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187E15E91447A3C9006F5A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187E15EA1447A3C9006F5A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187E15EC1447A3C9006F5A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/GTKeyboardHelper.embeddedframework\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/GTKeyboardHelper-aozvsmoetqethobncqrltpjlasoe/Build/Products/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keyboard Helper Demo/Keyboard Helper Demo-Prefix.pch";
+				INFOPLIST_FILE = "Keyboard Helper Demo/Keyboard Helper Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		187E15ED1447A3C9006F5A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/GTKeyboardHelper.embeddedframework\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/GTKeyboardHelper-aozvsmoetqethobncqrltpjlasoe/Build/Products/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keyboard Helper Demo/Keyboard Helper Demo-Prefix.pch";
+				INFOPLIST_FILE = "Keyboard Helper Demo/Keyboard Helper Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187E15C41447A3C8006F5A45 /* Build configuration list for PBXProject "Keyboard Helper Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E15E91447A3C9006F5A45 /* Debug */,
+				187E15EA1447A3C9006F5A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E15EB1447A3C9006F5A45 /* Build configuration list for PBXNativeTarget "Keyboard Helper Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E15EC1447A3C9006F5A45 /* Debug */,
+				187E15ED1447A3C9006F5A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187E15C11447A3C8006F5A45 /* Project object */;
+}
